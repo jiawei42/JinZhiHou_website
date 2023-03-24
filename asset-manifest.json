@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/JinZhiHou_website/static/css/main.073c9b0a.css",
-    "main.js": "/JinZhiHou_website/static/js/main.4bd3676c.js",
+    "main.css": "/JinZhiHou_website/static/css/main.0e44922d.css",
+    "main.js": "/JinZhiHou_website/static/js/main.97915027.js",
     "index.html": "/JinZhiHou_website/index.html",
-    "main.073c9b0a.css.map": "/JinZhiHou_website/static/css/main.073c9b0a.css.map",
-    "main.4bd3676c.js.map": "/JinZhiHou_website/static/js/main.4bd3676c.js.map"
+    "main.0e44922d.css.map": "/JinZhiHou_website/static/css/main.0e44922d.css.map",
+    "main.97915027.js.map": "/JinZhiHou_website/static/js/main.97915027.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4bd3676c.js"
+    "static/css/main.0e44922d.css",
+    "static/js/main.97915027.js"
   ]
 }
