@@ -1,0 +1,57 @@
+.who-left {
+  flex: 1;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.who-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  @media only screen and (max-width: 768px) {
+    align-items: center;
+    text-align: center;
+  }
+  .whatwedo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .line {
+    img {
+      height: 5px;
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  .title {
+    font-size: 74px;
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  .subtitle {
+    color: #6370e7;
+  }
+  .description {
+    font-size: 24px;
+    color: #333;
+    @media only screen and (max-width: 768px) {
+      padding: 20px;
+      text-align: center;
+    }
+  }
+  .btn {
+    background-color: #6370e7;
+    color: white;
+    font-weight: 500;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

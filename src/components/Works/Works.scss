@@ -1,0 +1,72 @@
+.pd-des {
+  width: 300px;
+  height: 70px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 200px;
+  right: 100px;
+  bottom: 10%;
+  text-align: center;
+  @media only screen and (max-width: 768px) {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.works-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+    justify-content: center;
+  }
+  .list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+  }
+  .list-item {
+    font-size: 90px;
+    font-weight: bold;
+    cursor: pointer;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    position: relative;
+    @media only screen and (max-width: 768px) {
+      font-size: 24px;
+      color: white;
+      -webkit-text-stroke: 0px;
+    }
+    &:after {
+      content: attr(data-text);
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: rgb(118, 118, 152);
+      width: 0px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    &:hover {
+      &:after {
+        animation: moveText 0.5s linear both;
+        @keyframes moveText {
+          to {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+.works-right {
+  flex: 1;
+}
