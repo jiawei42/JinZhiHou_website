@@ -55,10 +55,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               onClick={handleClick}
             >
-              <img
-                src={process.env.PUBLIC_URL + "/QR code.png"}
-                alt="QR code"
-              />
+              <img src={process.env.PUBLIC_URL + "/QRcode.png"} alt="QRcode" />
             </a>
             <div className="hint">點擊QRcode直接跳轉頁面</div>
           </div>
