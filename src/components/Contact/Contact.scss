@@ -43,7 +43,34 @@
 }
 .contact-right {
   flex: 1;
-  @media only screen and (max-width: 768px) {
-    display: none;
+  display: flex;
+  padding-left: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  .title {
+    font-weight: 300;
+    font-size: 36px;
+  }
+
+  .row {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: 5px solid darkgrey;
+    padding-bottom: 10px;
+    i {
+      font-size: 2em;
+    }
+  }
+  .qrcode {
+    padding: 20px;
+    margin: 0 auto;
+    .hint {
+      color: darkgrey;
+    }
   }
 }

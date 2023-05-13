@@ -34,7 +34,7 @@ const Works = () => {
           ) : work === "Development" ? (
             <div className="content">456</div>
           ) : (
-            <div className="content">789</div>
+            <div className="content">維修中</div>
           )}
         </div>
       </div>

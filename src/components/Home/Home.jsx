@@ -9,19 +9,19 @@ const Home = () => {
     <div className="section">
       <Navbar />
       <div className="home_container">
-        <div className="home-left">
+        <div className="home-middle">
           <h1 className="title">Jinzhi.Studio</h1>
           <div className="whatwedo">
-            <div className="line">
-              <img src={process.env.PUBLIC_URL + "/line.png"} alt="-" />
-            </div>
-            <h2 className="subtitle">What we Do</h2>
+            <h2 className="subtitle">What We Think</h2>
+            <img
+              src={process.env.PUBLIC_URL + "/homepage_banner.gif"}
+              alt="homepage_banner"
+            />
           </div>
-          <p className="description">這裡是要放一些對於你的工作理念或描述。</p>
-          <div className="btn">Learn More</div>
-        </div>
-        <div className="home-right">
-          <img src={process.env.PUBLIC_URL + "/profile.png"} alt="canvas" />
+          <p className="description">
+            To be irreplaceable, you must always be different.
+          </p>
+          <div className="btn">了解更多</div>
         </div>
       </div>
     </div>

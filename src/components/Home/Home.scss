@@ -7,7 +7,7 @@
     flex-direction: column;
   }
 }
-.home-left {
+.home-middle {
   flex: 2;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,14 @@
   .whatwedo {
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+    img {
+      width: 300px;
+      border-radius: 8px;
+    }
   }
   .line {
     img {
@@ -58,38 +65,10 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: relative;
+    margin: 0 auto;
     @media only screen and (max-width: 768px) {
       display: none;
-    }
-  }
-}
-.home-right {
-  flex: 3;
-  position: relative;
-  @media only screen and (max-width: 768px) {
-    flex: 1;
-    width: 100%;
-  }
-
-  img {
-    width: 800px;
-    height: 600px;
-    object-fit: contain;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    animation: animate 2s infinite ease alternate;
-    @media only screen and (max-width: 768px) {
-      width: 300px;
-      height: 300px;
-    }
-    @keyframes animate {
-      to {
-        transform: translateY(20px);
-      }
     }
   }
 }
