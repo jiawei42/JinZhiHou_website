@@ -19,7 +19,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="section">
+    <div id="section4" className="section">
       <div className="container">
         <div className="contact-left">
           <ContactForm />
@@ -34,7 +34,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="iconLink"
               >
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
             <div className="col">

@@ -6,7 +6,7 @@ import Navbar from "../Navbar/Navbar";
 import "./Home.scss";
 const Home = () => {
   return (
-    <div className="section">
+    <div id="section1" className="section">
       <Navbar />
       <div className="home_container">
         <div className="home-middle">

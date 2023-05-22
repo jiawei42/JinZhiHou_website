@@ -36,10 +36,9 @@ const ContactForm = () => {
   return (
     <form
       className="contact-form"
-      enctype="multipart/form-data"
+      encType="multipart/form-data"
       ref={formRef}
       onSubmit={handleSubmit}
-      onsubmit="return false;"
     >
       <div className="title">Contact Us</div>
 

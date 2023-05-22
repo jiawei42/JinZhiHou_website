@@ -5,7 +5,7 @@ import Cube from "./Cube";
 import "./Who.scss";
 const Who = () => {
   return (
-    <div className="section">
+    <div id="section2" className="section">
       <div className="container">
         <div className="who-left">
           <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>

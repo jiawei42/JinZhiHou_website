@@ -12,7 +12,7 @@ const Works = () => {
   ];
   const [work, setWork] = useState("3D Design");
   return (
-    <div className="section">
+    <div id="section3" className="section">
       <div className="container">
         <div className="works-left">
           <ul className="list">
